@@ -1,0 +1,145 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"href="./logocm.svg"type="image/x-icon"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Italiana&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" />
+    <title> CRISTINA MASER</title>
+ </head> 
+<body>
+    <header>
+        <container>
+            <nav class="navbar navbar-expand-lg navsilvia">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <img class="logonav"  src="./logocm.svg" alt="Logo_Cristina_Maser">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="https://cristinamaser.com/es/calendario-acuarelas-2023"target="_blank">Calendario</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://cristinamaser.com/es/invitaciones-boda"target="_blank">Invitaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://cristinamaser.com/es/curso-ilustracion-acuarela" target="_blank">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" tabindex="-1" aria-disabled="true">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </container>
+    </header> 
+    <main>
+        <form id="myForm">
+            <p>
+                <fieldset class="intro">
+                    <legend>¿Estás organizando una boda?<abbr title="Este campo es obligatorio" aria-label="required"></abbr></legend>
+                    <input class="radio" type="radio" required name="driver" id="r1" value="yes"><label for="r1" class="sino">Sí</label>
+                    <input class="radio" type="radio" required name="driver" id="r2" value="no"><label for="r2" class="sino">No</label>
+                </fieldset>
+            </p>
+            <p>
+                <label for="n1">¿Cuántos invitados asistirán?</label>
+                <input type="number" min="15" max="500" step="1" id="n1" name="invitados"pattern="\d+">
+            </p>
+            <p>
+                <label for="t1">¿En qué estilo estabas pensado?<abbr title="Este campo es obligatorio" aria-label="required">*</abbr></label>
+                <input type="text" id="t1" name="Bodas" list="l1" required pattern="[Vv]intage|[Cc]ampestre|[Cc]Chic|[Uu]rbano ">
+            <datalist id="l1">
+                <option>Vintage</option>
+                <option>Campestre</option>
+                <option>Chic</option>
+                <option>Urbano</option>
+            </datalist>
+            </p>
+            <p>
+                <label for="t2">¿Cuál es tu dirección de correo electrónico? </label>
+                <input type="email" id="t2" name="email">
+            </p>
+            <p>
+                <label for="t3">Deja un mensaje</label>
+                <textarea id="t3" name="msg" maxlength="140" rows="5"></textarea>
+            </p>
+            <div>
+                <input type="checkbox" name="Política de privacidad">
+                <p>Acepto Condiciones</p>
+            </div>
+            <p>
+                <button class=btn  type="submit">Validar</button>
+            </p>
+            <p>
+                <a href="./2formulario.html" class="btn btn-primary"id="validar">Continuar</a>
+            </p>
+        </form>
+    </main>
+        <!-- Remove the container if you want to extend the Footer to full width. -->
+        <div class="footfoot">
+            <footer>
+                <div class="container p-4">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 mb-4">
+                            <h5 class="mb-3" style="letter-spacing: 2px; color: white;">Siguenos en redes</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                                molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
+                                voluptatem veniam, est atque cumque eum delectus sint!
+                            </p>
+                            <p>
+                                <img src="./instagram.png" alt="logo_instagram">@maserbodas
+                            </p>
+                            <p>
+                                <img src="./envelope.svg" alt="sobre-email">crisbodas@maser.es
+                            </p>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <h5 class="mb-3" style="letter-spacing: 2px; color: white;">links</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-1">
+                                    <a href="#!" style="color: white;">Preguntas Frecuentes</a>
+                                </li>
+                                <li class="mb-1">
+                                    <a href="https://sede.serviciosmin.gob.es/es-es/Paginas/proteccion-datos-personales.aspx"target="_blank" style="color: white;">Aviso Legal</a>
+                                </li>
+                                <li class="mb-1">
+                                    <a href="https://sede.serviciosmin.gob.es/es-es/Paginas/proteccion-datos-personales.aspx"target="_blank" style="color: white;">Politica de Privacidad</a>
+                                </li>
+                                <li>
+                                    <a href="https://sede.serviciosmin.gob.es/es-es/Paginas/proteccion-datos-personales.aspx"target="_blank" style="color: white;">Protección de Datos</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <h5 class="mb-1" style="letter-spacing: 2px; color: white;">Horario Talleres</h5>
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <p>Presenciales y Online</p>
+                                    </tr>
+                                    <tr>
+                                        <td>Sat - Sun:</td>
+                                        <td>10:30 - 13:00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center p-3">
+                    © 2023 Copyright:
+                    <a class="text-dark" href="https://cristinamaser.com/"target="_blank"><img src="./logocm.svg" alt=""></a>
+                </div>
+           <!-- Copyright -->
+            </footer>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>   
+</html>
